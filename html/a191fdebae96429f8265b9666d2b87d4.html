@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>51fe715abb4d455e96dd6980f7b45bbb</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="mushroom-classification" class="cell markdown">
+<h1>Mushroom Classification</h1>
+</section>
+<section id="abstract" class="cell markdown">
+<h1>Abstract</h1>
+</section>
+<div class="cell markdown">
+<p>In the food industry, it is essential to know if a mushroom is safe to consume (edible) or not (poisonous).</p>
+<p>A machine learning algorithm will assess whether a mushroom is a safe food or a lethal toxin by following seven steps.</p>
+<p>Logistic Regression has been selected as the model to use moving forward in order to complete our classification task. That's due to our problem, where the value of our target variable has a binary output, either belongs to one class (edible) or another (poisonous).</p>
+<p>An accuracy score of 100% was achieved twice; firstly, by using label encoding, a splitting strategy like K-fold Cross-Validation and an optimizer like GridSearchCV and secondly, by using One hot encoding and the Hold-out method.</p>
+<p>Finally, provided some insights on the reliability of these two models.</p>
+</div>
+<section id="objectives" class="cell markdown">
+<h1>Objectives</h1>
+</section>
+<div class="cell markdown">
+<ul>
+<li>Discover where to obtain and gather open-sourced datasets so that we may begin building a machine learning model</li>
+<li>Gain knowledge of how crucial data preparation is to the machine learning process</li>
+<li>Find out how to feed the preprocessed data into a machine learning algorithm and assess the model using metrics like accuracy score and confusion matrix</li>
+<li>Learn how to measure a model's stability with respect to constantly changing training and test data by using an alternative splitting approach to the conventional one, the holdout method</li>
+<li>Tune a model's parameters using a method that finds the optimal parameter values from the supplied grid of parameters in order to improve a model's performance</li>
+<li>Understand the difference between label encoding and one hot encoding</li>
+</ul>
+</div>
+<section id="what-sets-my-tutorial-apart-from-other-comparable-online-tutorials" class="cell markdown">
+<h1>What sets my tutorial apart from other comparable online tutorials</h1>
+</section>
+<div class="cell markdown">
+<p>I needed to find a way to make my tutorial stand out, in addition to clearly demonstrating the process used so the reader can understand everything right away. <br> <br> I discovered that no tutorial demonstrates more than one strategy at doing the mushroom classifciation task in its entirety. <br> <br> In light of the fact that doing so might eventually boost a person's cognitive growth, I decided that compiling all relevant resources into a comprehensive tutorial would be the ideal action to take. <br> <br> <br></p>
+</div>
+<section id="summary-of-the-approach" class="cell markdown">
+<h2>Summary of the approach</h2>
+<h3 id="the-7-machine-learning-stages-are-the-following">The 7 Machine Learning stages are the following:</h3>
+<p><a href="#1.-Collecting-Data">1. Collecting Data</a> <br> <a href="#2.-Exploratory-Data-Analysis-and-Data-Preprocessing">2. Exploratory Data Analysis and Data Preprocessing</a> <br> <a href="#3.-Choosing-a-model">3. Choosing a model</a> <br> <a href="#4.-Training-the-model">4. Training the model</a> <br> <a href="#5.-Evaluating-the-model">5. Evaluating the model</a> <br> <a href="#6.-Parameter-Tuning">6. Parameter Tuning</a> <br> <a href="#7.-Making-Predictions">7. Making Predictions</a></p>
+</section>
+<div class="cell markdown">
+<p>Let's delve into it to get a better understanding of what each stage really does.</p>
+</div>
+<section id="1-collecting-data" class="cell markdown">
+<h3>1. Collecting Data</h3>
+</section>
+<div class="cell markdown">
+<p>The most crucial phase of tackling any supervised machine learning issue is data collection. The most popular primary data gathering techniques include interviewing, observing, completing surveys and questionnaires, holding focus groups, recording oral histories, and web scraping.</p>
+<p>We are fortunate, though, since Kaggle exists.</p>
+<p>Kaggle is an online community for machine learning and data science aficionados. Users of Kaggle have the ability to work collaboratively, access and publish datasets, use notebooks with GPU integration, and compete with other data scientists to tackle data science issues [3].</p>
+<p>That being said, adopting an open-sourced dataset from the UCI Machine Learning [2] that has been posted on Kaggle would significantly simplify our lives.</p>
+</div>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&quot;ignore&quot;</span>) <span class="co"># Hide all warnings </span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>capture</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install pandas</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_df_from_file():</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    missing_values <span class="op">=</span> [<span class="st">&quot;na&quot;</span>, <span class="st">&quot;?&quot;</span>] <span class="co"># Potential representation of missing values in the dataset</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(<span class="st">&#39;mushrooms.csv&#39;</span>, na_values <span class="op">=</span> missing_values) <span class="co"># Load dataset into a Pandas dataframe</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Get a dataframe that includes the whole dataset</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> get_df_from_file()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><u>Notes:</u></p>
+<ol>
+<li>The %%capture magic function is used to hide the cell's output, in order to prevent us from seeing all of the output of downloading a library.</li>
+<li>We only utilise functions for such simple tasks since we'll reuse the code farther down in the process.</li>
+</ol>
+</div>
+<div class="cell markdown">
+<p><br></p>
+</div>
+<section id="2-exploratory-data-analysis-and-data-preprocessing" class="cell markdown">
+<h3>2. Exploratory Data Analysis and Data Preprocessing</h3>
+</section>
+<div class="cell markdown">
+<h4 id="what-is-exploratory-data-analysis">What is Exploratory Data Analysis?</h4>
+<p>As its name implies, this stage is when we attempt to investigate the data through analysis.</p>
+<h4 id="okay-but-what-exactly-is-the-purpose-of-analyzing-our-data">Okay, but what exactly is the purpose of analyzing our data?</h4>
+<p>Think of it this way. In the absence of data, no model can be trained, no insights can be obtained, and no time is squandered; nevertheless, in the presence of flawed data, several models may be trained, numerous insights can be obtained, and time is unquestionably wasted.</p>
+<h4 id="that-seems-reasonable-but-how-can-we-examine-our-data-effectively">That seems reasonable, but how can we examine our data effectively?</h4>
+<p>There are numerous ways to examine our data. Let's look at several methods below for understanding and visualising our data.</p>
+<p><br> <br></p>
+</div>
+<section id="understanding-the-data" class="cell markdown">
+<h4>Understanding the data</h4>
+</section>
+<div class="cell code" data-execution_count="3" data-scrolled="true">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df.head() <span class="co"># Show the first 5 rows of the dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>class</th>
+      <th>cap-shape</th>
+      <th>cap-surface</th>
+      <th>cap-color</th>
+      <th>bruises</th>
+      <th>odor</th>
+      <th>gill-attachment</th>
+      <th>gill-spacing</th>
+      <th>gill-size</th>
+      <th>gill-color</th>
+      <th>...</th>
+      <th>stalk-surface-below-ring</th>
+      <th>stalk-color-above-ring</th>
+      <th>stalk-color-below-ring</th>
+      <th>veil-type</th>
+      <th>veil-color</th>
+      <th>ring-number</th>
+      <th>ring-type</th>
+      <th>spore-print-color</th>
+      <th>population</th>
+      <th>habitat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>p</td>
+      <td>x</td>
+      <td>s</td>
+      <td>n</td>
+      <td>t</td>
+      <td>p</td>
+      <td>f</td>
+      <td>c</td>
+      <td>n</td>
+      <td>k</td>
+      <td>...</td>
+      <td>s</td>
+      <td>w</td>
+      <td>w</td>
+      <td>p</td>
+      <td>w</td>
+      <td>o</td>
+      <td>p</td>
+      <td>k</td>
+      <td>s</td>
+      <td>u</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>e</td>
+      <td>x</td>
+      <td>s</td>
+      <td>y</td>
+      <td>t</td>
+      <td>a</td>
+      <td>f</td>
+      <td>c</td>
+      <td>b</td>
+      <td>k</td>
+      <td>...</td>
+      <td>s</td>
+      <td>w</td>
+      <td>w</td>
+      <td>p</td>
+      <td>w</td>
+      <td>o</td>
+      <td>p</td>
+      <td>n</td>
+      <td>n</td>
+      <td>g</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>e</td>
+      <td>b</td>
+      <td>s</td>
+      <td>w</td>
+      <td>t</td>
+      <td>l</td>
+      <td>f</td>
+      <td>c</td>
+      <td>b</td>
+      <td>n</td>
+      <td>...</td>
+      <td>s</td>
+      <td>w</td>
+      <td>w</td>
+      <td>p</td>
+      <td>w</td>
+      <td>o</td>
+      <td>p</td>
+      <td>n</td>
+      <td>n</td>
+      <td>m</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>p</td>
+      <td>x</td>
+      <td>y</td>
+      <td>w</td>
+      <td>t</td>
+      <td>p</td>
+      <td>f</td>
+      <td>c</td>
+      <td>n</td>
+      <td>n</td>
+      <td>...</td>
+      <td>s</td>
+      <td>w</td>
+      <td>w</td>
+      <td>p</td>
+      <td>w</td>
+      <td>o</td>
+      <td>p</td>
+      <td>k</td>
+      <td>s</td>
+      <td>u</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>e</td>
+      <td>x</td>
+      <td>s</td>
+      <td>g</td>
+      <td>f</td>
+      <td>n</td>
+      <td>f</td>
+      <td>w</td>
+      <td>b</td>
+      <td>k</td>
+      <td>...</td>
+      <td>s</td>
+      <td>w</td>
+      <td>w</td>
+      <td>p</td>
+      <td>w</td>
+      <td>o</td>
+      <td>e</td>
+      <td>n</td>
+      <td>a</td>
+      <td>g</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 23 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p><br> <br></p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_a191fdebae96429f8265b9666d2b87d4/mushroom.png" alt="mushroom.png" /></p>
+</div>
+<div class="cell markdown">
+<p>The image was taken from an <a href="https://medium.com/analytics-vidhya/mushroom-classification-edible-or-poisonous-9327a56c6fc9">Analytics Vidhya's article</a> but colors were added to it via the <a href="https://www.gimp.org/">GIMP software</a>. <br> <br></p>
+</div>
+<div class="cell markdown">
+<p>Based on the 10 features that are shown in the image above, our dataset has the following: <br></p>
+<ul>
+<li>3 features for Cap (shape, surface, color)</li>
+<li>4 features for Gill (attachment, spacing, size, color)</li>
+<li>6 features for Stalk (shape, root, surface above ring, surface below ring, color above ring, color below ring)</li>
+<li>2 features for Veil (type, color)</li>
+<li>2 features for Ring (number, type)</li>
+<li>1 feature for Spores (color)</li>
+<li>4 additional features (bruises, odor, population, habitat)</li>
+<li>and our target variable/label, class</li>
+</ul>
+</div>
+<div class="cell markdown">
+<p><br> <br> <br></p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.shape <span class="co"># Show the rows and columns of the dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<pre><code>(8124, 23)</code></pre>
+</div>
+</div>
+<section id="what-do-these-two-number-show" class="cell markdown">
+<h4>What do these two number show?</h4>
+<p>They indicate that our dataset consists of 23 variables in total from which 22 are the independent variables (features) and the other is the dependent variable (label) that characterise a mushroom having 8124 instances (single rows of data). All these features contribute in defining (the label) whether a mushroom is poisonous or edible. <br> <br> <br></p>
+</section>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.dtypes <span class="co"># Show the datatype of each column of the dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>class                       object
+cap-shape                   object
+cap-surface                 object
+cap-color                   object
+bruises                     object
+odor                        object
+gill-attachment             object
+gill-spacing                object
+gill-size                   object
+gill-color                  object
+stalk-shape                 object
+stalk-root                  object
+stalk-surface-above-ring    object
+stalk-surface-below-ring    object
+stalk-color-above-ring      object
+stalk-color-below-ring      object
+veil-type                   object
+veil-color                  object
+ring-number                 object
+ring-type                   object
+spore-print-color           object
+population                  object
+habitat                     object
+dtype: object</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<h4 id="how-about-this-column-of-only-objects-in-a-single-column">How about this column of only objects in a single column?</h4>
+<p>It indicates that every feature has a datatype of object; meaning that every feature contains categorical data.</p>
+<h4 id="what-is-categorical-data">What is categorical data?</h4>
+<p>Think of it this way. Only numbers are capable of producing numerical data. Every other type of data is categorical; it is a collection of information that has been classified into groups. <br> <br> <br></p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df.describe() <span class="co"># Show a description of the data of the dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>class</th>
+      <th>cap-shape</th>
+      <th>cap-surface</th>
+      <th>cap-color</th>
+      <th>bruises</th>
+      <th>odor</th>
+      <th>gill-attachment</th>
+      <th>gill-spacing</th>
+      <th>gill-size</th>
+      <th>gill-color</th>
+      <th>...</th>
+      <th>stalk-surface-below-ring</th>
+      <th>stalk-color-above-ring</th>
+      <th>stalk-color-below-ring</th>
+      <th>veil-type</th>
+      <th>veil-color</th>
+      <th>ring-number</th>
+      <th>ring-type</th>
+      <th>spore-print-color</th>
+      <th>population</th>
+      <th>habitat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>...</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+      <td>8124</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>2</td>
+      <td>6</td>
+      <td>4</td>
+      <td>10</td>
+      <td>2</td>
+      <td>9</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>12</td>
+      <td>...</td>
+      <td>4</td>
+      <td>9</td>
+      <td>9</td>
+      <td>1</td>
+      <td>4</td>
+      <td>3</td>
+      <td>5</td>
+      <td>9</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>e</td>
+      <td>x</td>
+      <td>y</td>
+      <td>n</td>
+      <td>f</td>
+      <td>n</td>
+      <td>f</td>
+      <td>c</td>
+      <td>b</td>
+      <td>b</td>
+      <td>...</td>
+      <td>s</td>
+      <td>w</td>
+      <td>w</td>
+      <td>p</td>
+      <td>w</td>
+      <td>o</td>
+      <td>p</td>
+      <td>w</td>
+      <td>v</td>
+      <td>d</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>4208</td>
+      <td>3656</td>
+      <td>3244</td>
+      <td>2284</td>
+      <td>4748</td>
+      <td>3528</td>
+      <td>7914</td>
+      <td>6812</td>
+      <td>5612</td>
+      <td>1728</td>
+      <td>...</td>
+      <td>4936</td>
+      <td>4464</td>
+      <td>4384</td>
+      <td>8124</td>
+      <td>7924</td>
+      <td>7488</td>
+      <td>3968</td>
+      <td>2388</td>
+      <td>4040</td>
+      <td>3148</td>
+    </tr>
+  </tbody>
+</table>
+<p>4 rows × 23 columns</p>
+</div>
+</div>
+</div>
+<section id="since-our-data-is-categorical-werent-we-supposed-to-use-dfdescribeincludeobject-method-instead" class="cell markdown">
+<h4>Since our data is categorical, weren't we supposed to use df.describe(include[object]) method instead?</h4>
+<p>Indeed, normally the function df.describe(include[object]) needs to be used in order to display the statistical summary of categorical data. <br> <br> However, as there is no numerical data in our dataset, even when using df.describe(), a statistical summary of the categorical data will be shown. <br> <br> <br></p>
+</section>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;class&#39;</span>].unique() <span class="co"># Show the unique values of the column class</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>array([&#39;p&#39;, &#39;e&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>It is clear that our target variable "class" only contains the values "p" and "e", which stand for poisonous and edible, respectively. <br> <br></p>
+</div>
+<section id="checking-for-missing-data" class="cell markdown">
+<h4>Checking for missing data</h4>
+</section>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df.isnull().values.<span class="bu">any</span>() <span class="co"># Check if there is any NaN value in the dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>True</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Missing data is present in our dataset. <br> <br> <br></p>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df.isnull().<span class="bu">sum</span>() <span class="co"># Show the total number of missing values each column has</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<pre><code>class                          0
+cap-shape                      0
+cap-surface                    0
+cap-color                      0
+bruises                        0
+odor                           0
+gill-attachment                0
+gill-spacing                   0
+gill-size                      0
+gill-color                     0
+stalk-shape                    0
+stalk-root                  2480
+stalk-surface-above-ring       0
+stalk-surface-below-ring       0
+stalk-color-above-ring         0
+stalk-color-below-ring         0
+veil-type                      0
+veil-color                     0
+ring-number                    0
+ring-type                      0
+spore-print-color              0
+population                     0
+habitat                        0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>It is evident that the only variable that has missing data is the "stalk-root". <br> <br> <br></p>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;stalk-root&#39;</span>].value_counts() <span class="co"># Show how many times each unique value occurs in the &#39;stalk-root&#39; column</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>b    3776
+e    1120
+c     556
+r     192
+Name: stalk-root, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The most frequent value is the value "b" which stands for bulbous; thus, we will utilise the variable's mode to replace the 2480 missing values with that letter.</p>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;stalk-root&#39;</span>].fillna(df[<span class="st">&#39;stalk-root&#39;</span>].mode()[<span class="dv">0</span>], inplace<span class="op">=</span><span class="va">True</span>) <span class="co"># Replace NaN values with the mode&#39;s value</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>If you're curious about how I know "b" was standing for bulbous, you can have a look at <a href="https://www.kaggle.com/datasets/uciml/mushroom-classification">mushroom.csv's "Detail" section</a>.</p>
+</div>
+<div class="cell markdown">
+<p><br> <br></p>
+</div>
+<section id="visualising-the-data" class="cell markdown">
+<h4>Visualising the data</h4>
+</section>
+<div class="cell markdown">
+<p>Most frequently, histograms are used to visualise outliers in numerical data. <br> However, since we only have categorical data, count plots—which are histograms spanning categorical variables—must be employed.</p>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>capture</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install matplotlib</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install seaborn</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><br> <br> <br> This will allow us to examine how often each value appears throughout its corresponding variable in respect of our label, 'class'.</p>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a countplot for every variable and color encode the value in respect of our label</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, col <span class="kw">in</span> <span class="bu">enumerate</span>(df.columns):</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Create a figure for each variable of the dataset</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    plt.figure(i)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Plot the figure for the specific variable and its corresponding values by color encoding them</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>    sns_plot <span class="op">=</span> sns.countplot(x<span class="op">=</span>col, <span class="co"># Variable </span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>                             hue<span class="op">=</span><span class="st">&#39;class&#39;</span>, <span class="co"># Color encoding based on our label</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>                             data<span class="op">=</span>df <span class="co"># Dataset</span></span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>                            )</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Stop the loop at the third column</span></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> i <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_a191fdebae96429f8265b9666d2b87d4/d784295e0f772223b70801586f9a23522ed67064.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_a191fdebae96429f8265b9666d2b87d4/cdede6fb3cbcfc01120c9e32ed6a9b8109ff44d0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_a191fdebae96429f8265b9666d2b87d4/11c3c7dd8724bb569ef2143ffa70094805e872b2.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><u>Note:</u> For convenience, just the countplots of the first three variables were displayed.</p>
+</div>
+<div class="cell markdown">
+<p><br> <br></p>
+</div>
+<section id="checking-if-the-dataset-is-balanced-or-imbalanced" class="cell markdown">
+<h4>Checking if the dataset is balanced or imbalanced</h4>
+</section>
+<div class="cell markdown">
+<p>The first countplot above may have already led us to infer that the proportion of edible to deadly mushrooms is almost equal. <br> However, all scepticism will be dispelled by discovering how many times each unique value of the target variable occurs.</p>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;class&#39;</span>].value_counts() <span class="co"># Show how many times each unique value occurs in the &#39;class&#39; column</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>e    4208
+p    3916
+Name: class, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>As can be seen, the edible and poisonous mushrooms are equal to 4208 and 3916 respectively which are close. <br> <br> That being said, it can be concluded that the dataset is balanced. <br> <br></p>
+</div>
+<section id="encoding-the-categorical-variables" class="cell markdown">
+<h4>Encoding the categorical variables</h4>
+</section>
+<div class="cell markdown">
+<p>The data encoding technique employed is the label encoding where as its name suggests, it transforms the labels into a numeric form.</p>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>capture</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> pip install scikit<span class="op">-</span>learn</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> encode_data(data):</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    le <span class="op">=</span> LabelEncoder() <span class="co"># Initialize label encoder</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Loop through all the columns</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> col <span class="kw">in</span> data:</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>        df[col] <span class="op">=</span> le.fit_transform(df[col]) <span class="co"># Encode column</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>      </span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Get encoded dataframe</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> encode_data(df.columns)</span></code></pre></div>
+</div>
+<section id="why-do-we-need-to-encode-our-data" class="cell markdown">
+<h4>Why do we need to encode our data?</h4>
+<p>Machine learning models require all input and output variables to be numeric. <br> Since all of our data is categorical, it must first be converted to numbers before we can fit and evaluate our model. <br> <br> <br></p>
+</section>
+<div class="cell markdown">
+<p>We must ensure that the encoded values are all distinct from one another.</p>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check that all the encoded values are different between them</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df[<span class="st">&#39;population&#39;</span>].unique(), <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[3 2 0 4 5 1] 
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the size of the encoded values of the label &#39;class&#39;</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.groupby(<span class="st">&#39;class&#39;</span>).size()) <span class="co"># 0 and 1</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>class
+0    4208
+1    3916
+dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The fact that the encoded values have the same quantity as the uncoded values further demonstrates the success of the label encoding (4208, 3916). Thus, it follows that the numbers 0 and 1 correspond to edible and poisonous mushrooms, respectively. <br> <br> <br></p>
+</div>
+<section id="splitting-data" class="cell markdown">
+<h4>Splitting data</h4>
+<p>Our data is frequently divided into training and test sets when we are building a machine learning model utilising certain data.</p>
+</section>
+<div class="cell markdown">
+<h5 id="what-is-the-difference-between-the-train-set-and-test-set">What is the difference between the Train set and Test set?</h5>
+<p>The model is trained using the training set, then it is tested with data (test set) that it has never seen before.</p>
+<h4 id="but-why-use-data-that-has-never-been-seen-before">But why use data that has never been seen before?</h4>
+<p>Training a model with such data, a final unbiased model performance assessment can be reached. More about it will be discussed further below at the Parameter Tuning stage. <br> <br></p>
+</div>
+<div class="cell markdown">
+<p>First, let's demonstrate how we divide the dataset's features and label.</p>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> df.iloc[:, <span class="dv">1</span>:] <span class="co"># All rows, all the features and no label</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>features.head() <span class="co"># Show the first five rows of the &#39;features&#39; dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>cap-shape</th>
+      <th>cap-surface</th>
+      <th>cap-color</th>
+      <th>bruises</th>
+      <th>odor</th>
+      <th>gill-attachment</th>
+      <th>gill-spacing</th>
+      <th>gill-size</th>
+      <th>gill-color</th>
+      <th>stalk-shape</th>
+      <th>...</th>
+      <th>stalk-surface-below-ring</th>
+      <th>stalk-color-above-ring</th>
+      <th>stalk-color-below-ring</th>
+      <th>veil-type</th>
+      <th>veil-color</th>
+      <th>ring-number</th>
+      <th>ring-type</th>
+      <th>spore-print-color</th>
+      <th>population</th>
+      <th>habitat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>5</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>4</td>
+      <td>0</td>
+      <td>...</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>5</td>
+      <td>2</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td>...</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0</td>
+      <td>2</td>
+      <td>8</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0</td>
+      <td>...</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>4</td>
+      <td>3</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>5</td>
+      <td>3</td>
+      <td>8</td>
+      <td>1</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>5</td>
+      <td>0</td>
+      <td>...</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>4</td>
+      <td>1</td>
+      <td>...</td>
+      <td>2</td>
+      <td>7</td>
+      <td>7</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 22 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> df.iloc[:, <span class="dv">0</span>] <span class="co"># All rows, label only</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>target.head() <span class="co"># Show the first five rows of the &#39;target&#39; dataframe</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>0    1
+1    0
+2    0
+3    1
+4    0
+Name: class, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><br> <br> <br> To ensure that the forms are in line to have a correct fit while training, it is necessary to examine the sizes of both the features and the target. <br> Otherwise, the process of learning could be disrupted by different shapes.</p>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of features is &quot;</span>, features.shape)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of target is &quot;</span>, target.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Shape of features is  (8124, 22)
+Shape of target is  (8124,)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><u> As expected, we have: </u></p>
+<ul>
+<li>only one target (class)</li>
+<li>21 features (22 (features) - 1 (a feature has been dropped) = 21)</li>
+<li>8124 instances for both features and target</li>
+</ul>
+</div>
+<div class="cell markdown">
+<p><br></p>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> split_data(features, target):</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Split the dataset into Train set and Test set</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>    train_features, test_features, train_target, test_target <span class="op">=</span> <span class="op">\</span></span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>                                    train_test_split(features, target, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> train_features, test_features, train_target, test_target</span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Get Train set and Test set</span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>train_features, test_features, train_target, test_target <span class="op">=</span> split_data(features, target)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>The distinction between the train and test set was already covered above. <br> <br> A common split when using the hold-out approach employs 80% of the data for training and 20% for testing.</p>
+<h4 id="why-exactly-the-numbers-80-and-20">Why exactly the numbers 80 and 20?</h4>
+<p>Empirical studies show that the best results come from using 20–30% of the data for testing and the rest 70–80% for training. <br> Read the <a href="https://scholarworks.utep.edu/cgi/viewcontent.cgi?article=2202&amp;context=cs_techrep">Why 70/30 or 80/20 Relation Between Training and Testing Sets: A Pedagogical Explanation</a> paper for more details. <br> <br> <br></p>
+</div>
+<div class="cell markdown">
+<p>Let's check if the data split was successful.</p>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of features in the train set: &quot;</span>, train_features.shape)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of target in the train set: &quot;</span>, train_target.shape)</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of features in the test set: &quot;</span>, test_features.shape)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Shape of target in the test set: &quot;</span>, test_target.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Shape of features in the train set:  (6499, 22)
+Shape of target in the train set:  (6499,)
+Shape of features in the test set:  (1625, 22)
+Shape of target in the test set:  (1625,)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><u> By doing</u>: 8124 (initial instances) * 80/100 (proportion of Train set) = 6499.2 ~ 6499 (instances) which verifies our Train set's size. <br> <br> <u> Same applies to the Test set</u>: <br> 8124 (initial instances) * 20/100 (proportion of test set) = 1624.8 ~ 1625 (instances) which verifies our Test set's size.</p>
+<p><br> <br></p>
+</div>
+<section id="feature-scaling" class="cell markdown">
+<h4>Feature Scaling</h4>
+</section>
+<div class="cell markdown">
+<h5 id="what-is-feature-scaling">What is Feature Scaling?</h5>
+<p>It is a technique for normalising the range of independent variables (features) in data. <br> <br> That's why only the features (designated below as "train_features" and "test_features") are scaled.</p>
+<h5 id="what-does-normalising-the-range-of-a-variable-mean">What does normalising the range of a variable mean?</h5>
+<p>The data is transformed in such a manner to have a mean of 0 and a standard deviation of 1. <br> <br> <br> That’s where Standard Scaler comes into play.</p>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> standardise_data(train_features, test_features):</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>    sc <span class="op">=</span> StandardScaler() <span class="co"># Initialize Standard Scaler</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>    train_features <span class="op">=</span> sc.fit_transform(train_features) <span class="co"># Standardise features of train set</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>    test_features <span class="op">=</span> sc.transform(test_features) <span class="co"># Standardise features of test set</span></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> train_features, test_features</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Get standardised features from both train and test sets</span></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>train_features, test_features <span class="op">=</span> standardise_data(train_features, test_features)</span></code></pre></div>
+</div>
+<section id="why-would-we-want-to-do-something-like-that" class="cell markdown">
+<h5>Why would we want to do something like that?</h5>
+<p>To ensure internal consistency of the data. <br> <br></p>
+</section>
+<section id="3-choosing-a-model" class="cell markdown">
+<h3>3. Choosing a model</h3>
+</section>
+<div class="cell markdown">
+<p>We have finally come to the point where a model needs to be chosen for both training and evaluating it. <br> Our chosen model is Logistic Regression as it is easy to be built and be trained.</p>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize a Logistic Regression model</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LogisticRegression()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><br></p>
+</div>
+<section id="4-training-the-model" class="cell markdown">
+<h3>4. Training the model</h3>
+</section>
+<div class="cell markdown">
+<p>Our model needs to receive the anticipated training on the train set.</p>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit Logistic Regression</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>model.fit(train_features, train_target)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>LogisticRegression()</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">LogisticRegression</label><div class="sk-toggleable__content"><pre>LogisticRegression()</pre></div></div></div></div></div>
+</div>
+</div>
+<div class="cell markdown">
+<p><br></p>
+</div>
+<section id="5-evaluating-the-model" class="cell markdown">
+<h3>5. Evaluating the model</h3>
+</section>
+<div class="cell markdown">
+<p>For evaluating our Logistic Regression model, accuracy score needs to be found and confusion matrix needs to be plotted.</p>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the prediction of the target of the test set</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>test_target_prediction <span class="op">=</span> model.predict(test_features) <span class="co"># Predict class labels for samples in features of test set</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Show accuracy score</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy score:&quot;</span>, accuracy_score(test_target, test_target_prediction, normalize<span class="op">=</span><span class="va">True</span>) <span class="op">*</span> <span class="dv">100</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy score: 96.43076923076923
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Our model has almost attained an accuracy of 97%, which is regarded fantastic. <br> Although working on a classification task, the optimum score is 100% accuracy. <br> As a result, we'll strive to enhance it even more using a tool called an optimizer. <br> <br> <br></p>
+</div>
+<div class="cell markdown">
+<p>Before doing so, let's visualise the confusion matrix.</p>
+<h4 id="confusion-matrix-why-does-it-have-such-a-name">Confusion Matrix, why does it have such a name?</h4>
+<p>As its name suggests, it is straightforward to assess whether a model is confusing two classes; commonly mislabeling one as another. <br> <br> However, as it is a typical performance measurement for machine learning classification problems, we won't go into great depth. <br>I advise reading <a href="https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62">Understanding Confusion Matrix</a> if you're interested in learning more about it. <br> <br> <br></p>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> visualise_conf_matrix(test_target, test_target_prediction):</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>    <span class="co"># confusion matrix</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>    cm <span class="op">=</span> confusion_matrix(test_target, test_target_prediction)</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    sns.heatmap(cm, cmap<span class="op">=</span><span class="st">&#39;Blues&#39;</span>, annot<span class="op">=</span><span class="va">True</span>, fmt<span class="op">=</span><span class="st">&#39;d&#39;</span>, cbar<span class="op">=</span><span class="va">False</span>, yticklabels<span class="op">=</span>[<span class="st">&#39;Edible&#39;</span>, <span class="st">&#39;Poisonous&#39;</span>], <span class="op">\</span></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>                xticklabels<span class="op">=</span>[<span class="st">&#39;Predicted Edible&#39;</span>, <span class="st">&#39;Predicted Poisonous&#39;</span>])</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>visualise_conf_matrix(test_target, test_target_prediction)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_a191fdebae96429f8265b9666d2b87d4/7eaf250cebfa0b9370320f2985c0897b292f2b5d.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The confusion matrix reveals that the model has correctly predicted 1567 out of 1625 observations, which is a decent result. <br> <br></p>
+</div>
+<section id="6-parameter-tuning" class="cell markdown">
+<h3>6. Parameter Tuning</h3>
+</section>
+<div class="cell markdown">
+<h4 id="what-is-parameter-tuning">What is Parameter Tuning?</h4>
+<p>It is the process of optimising a model's performance without overfitting or generating an excessive amount of variance by selecting the appropriate hyperparameters [5].</p>
+<h4 id="when-does-overfitting-occur">When does overfitting occur?</h4>
+<p>Overfitting occurs when a model performs well on training data but poorly on unseen data. <br> <br> <br> That's where Cross-validation enters the picture. <br> <br> <br></p>
+</div>
+<section id="what-is-k-fold-cross-validation" class="cell markdown">
+<h4>What is K-fold Cross-validation?</h4>
+<p>K-fold Cross-validation is very similar to the Hold-out method, but it’s applied to more subsets. <br> <br> During K-fold Cross-validation, we do many splits, not just one like how the Hold-out method does. We are able to divide our data into 3, 5, 10, or any K number of splits/folds. <br> <br></p>
+</section>
+<div class="cell markdown">
+<p>The data set is divided into five parts if we utilise 5-folds. A different part turns into the test set in every iteration. <br> <br> In the first iteration, we use the first part of the data for testing. Then, as illustrated in the image below, we use the other parts of the data set for training.</p>
+</div>
+<div class="cell markdown">
+<p><img src="vertopal_a191fdebae96429f8265b9666d2b87d4/kfold.png" alt="kfold.png" /></p>
+</div>
+<div class="cell markdown">
+<p>The image was created using <a href="https://www.draw.io/connect/office365/index.html">draw.io</a> but was inspired from <a href="https://www.section.io/engineering-education/how-to-implement-k-fold-cross-validation/">How to Implement K fold Cross-Validation in Scikit-Learn</a> article. <br> <br></p>
+<h4 id="what-problem-would-k-fold-cross-validation-be-able-to-help-us-with">What problem would K-fold Cross-validation be able to help us with?</h4>
+<p>What if one subset of our data has only mushrooms from a specific cap, gill or only mushrooms with the same stalk? Such a case would definitely lead to over-fitting but the goal is to avoid it.</p>
+</div>
+<div class="cell markdown">
+<p><br> <br> <br> The most popular number used for folds is 10 [7] and thus, that's the number we will move forward with.</p>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> KFold</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>cv <span class="op">=</span> KFold(n_splits<span class="op">=</span><span class="dv">10</span>, random_state<span class="op">=</span><span class="dv">42</span>, shuffle<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>The model will then be finalised by averaging it against each of the folds.</p>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> cross_val_score</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>scores <span class="op">=</span> cross_val_score(model, features, target, scoring<span class="op">=</span><span class="st">&quot;accuracy&quot;</span>, cv<span class="op">=</span><span class="dv">10</span>)</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Cross validation scores:&quot;</span>, scores, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Average accuracy: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(scores.mean() <span class="op">*</span> <span class="dv">100</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Cross validation scores: [0.68265683 0.88683887 0.9901599  0.99261993 0.908867   0.86330049
+ 1.         0.99753695 0.62068966 0.99507389] 
+
+Average accuracy: 89.37743503050794
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><br></p>
+</div>
+<section id="gridsearchcv" class="cell markdown">
+<h4>GridSearchCV</h4>
+</section>
+<div class="cell markdown">
+<p>When fitting our model, we may test out all the possible combinations while specifying various values for each hyperparameter. <br> <br> GridSearchCV's outcome is the collection of hyperparameters (out of the various values provided) that best suit our data in terms of the scoring metric we want our model to optimize on [7]. In our case, the 'accuracy' metric is chosen. <br> <br></p>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb46"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="co"># a dictionary of parameters</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>parameters <span class="op">=</span> {</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a><span class="st">&#39;penalty&#39;</span> : [<span class="st">&#39;l1&#39;</span>,<span class="st">&#39;l2&#39;</span>],   </span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="st">&#39;C&#39;</span>       : np.logspace(<span class="op">-</span><span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">7</span>),</span>
+<span id="cb46-7"><a href="#cb46-7" aria-hidden="true" tabindex="-1"></a><span class="st">&#39;solver&#39;</span>  : [<span class="st">&#39;newton-cg&#39;</span>, <span class="st">&#39;lbfgs&#39;</span>, <span class="st">&#39;liblinear&#39;</span>],</span>
+<span id="cb46-8"><a href="#cb46-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>The parameter grid (a dictionary containing all the various hyperparameters) used below was taken from a Medium article, <a href="https://towardsdatascience.com/tuning-the-hyperparameters-of-your-machine-learning-model-using-gridsearchcv-7fc2bb76ff27">Tuning the Hyperparameters of your Machine Learning Model using GridSearchCV</a>. <br> <br> <br></p>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> GridSearchCV</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>clf <span class="op">=</span> GridSearchCV(model, <span class="co"># Model</span></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>                    param_grid<span class="op">=</span>parameters, <span class="co"># Hyperparameters</span></span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>                    scoring<span class="op">=</span><span class="st">&#39;accuracy&#39;</span>, <span class="co"># Metric for scoring</span></span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>                    cv<span class="op">=</span><span class="dv">10</span>) <span class="co"># Number of folds</span></span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Train the model with the training_model set</span></span>
+<span id="cb47-11"><a href="#cb47-11" aria-hidden="true" tabindex="-1"></a>clf.fit(train_features, train_target)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="36">
+<style>#sk-container-id-3 {color: black;background-color: white;}#sk-container-id-3 pre{padding: 0;}#sk-container-id-3 div.sk-toggleable {background-color: white;}#sk-container-id-3 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-3 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-3 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-3 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-3 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-3 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-3 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-3 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-3 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-3 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-3 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-3 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-3 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-3 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-3 div.sk-item {position: relative;z-index: 1;}#sk-container-id-3 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-3 div.sk-item::before, #sk-container-id-3 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-3 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-3 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-3 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-3 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-3 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-3 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-3 div.sk-label-container {text-align: center;}#sk-container-id-3 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-3 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-3" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>GridSearchCV(cv=10, estimator=LogisticRegression(),
+             param_grid={&#x27;C&#x27;: array([1.e-03, 1.e-02, 1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03]),
+                         &#x27;penalty&#x27;: [&#x27;l1&#x27;, &#x27;l2&#x27;],
+                         &#x27;solver&#x27;: [&#x27;newton-cg&#x27;, &#x27;lbfgs&#x27;, &#x27;liblinear&#x27;]},
+             scoring=&#x27;accuracy&#x27;)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item sk-dashed-wrapped"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-5" type="checkbox" ><label for="sk-estimator-id-5" class="sk-toggleable__label sk-toggleable__label-arrow">GridSearchCV</label><div class="sk-toggleable__content"><pre>GridSearchCV(cv=10, estimator=LogisticRegression(),
+             param_grid={&#x27;C&#x27;: array([1.e-03, 1.e-02, 1.e-01, 1.e+00, 1.e+01, 1.e+02, 1.e+03]),
+                         &#x27;penalty&#x27;: [&#x27;l1&#x27;, &#x27;l2&#x27;],
+                         &#x27;solver&#x27;: [&#x27;newton-cg&#x27;, &#x27;lbfgs&#x27;, &#x27;liblinear&#x27;]},
+             scoring=&#x27;accuracy&#x27;)</pre></div></div></div><div class="sk-parallel"><div class="sk-parallel-item"><div class="sk-item"><div class="sk-label-container"><div class="sk-label sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-6" type="checkbox" ><label for="sk-estimator-id-6" class="sk-toggleable__label sk-toggleable__label-arrow">estimator: LogisticRegression</label><div class="sk-toggleable__content"><pre>LogisticRegression()</pre></div></div></div><div class="sk-serial"><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-7" type="checkbox" ><label for="sk-estimator-id-7" class="sk-toggleable__label sk-toggleable__label-arrow">LogisticRegression</label><div class="sk-toggleable__content"><pre>LogisticRegression()</pre></div></div></div></div></div></div></div></div></div></div>
+</div>
+</div>
+<div class="cell markdown">
+<p><br> <br></p>
+</div>
+<div class="cell markdown">
+<p>GridSearchCV makes an effort to improve our score by adjusting the given parameters in order to identify the best ones.</p>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb48"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Best tuned hyperparameters :&quot;</span>, clf.best_params_, <span class="st">&quot;</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy using GridSearchCV:&quot;</span>, clf.best_score_ <span class="op">*</span> <span class="dv">100</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Best tuned hyperparameters : {&#39;C&#39;: 1.0, &#39;penalty&#39;: &#39;l1&#39;, &#39;solver&#39;: &#39;liblinear&#39;} 
+
+Accuracy using GridSearchCV: 100.0
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><br> <br></p>
+</div>
+<section id="7-making-predictions" class="cell markdown">
+<h3>7. Making Predictions</h3>
+</section>
+<div class="cell markdown">
+<p><b> Logistic Regression: </b> 96.43076923076923 <br> <b> After using K-fold Cross-Validation and GridSearchCV: </b> 100.0</p>
+<p>It is clear from comparing the two scores that using K-fold Cross-Validation along with GridSearchCV assisted us in improving the performance of our model. <br> <br> <br></p>
+</div>
+<section id="8-food-for-thought" class="cell markdown">
+<h3>8. Food for thought</h3>
+</section>
+<div class="cell markdown">
+<p>The question, "Have we employed the wrong techniques?" started running through my head when I unintentionally came across this Medium post titled <a href="https://val0.medium.com/100-accurate-mushroom-classification-in-python-eac61da3bace">100% Accurate Mushroom Classification in Python</a>, which used the same dataset we did and achieved the same accuracy score of 100% without the use of any parameter tuning techniques at all. <br> <br> After wrapping my head around and going through all the steps that the article's author went, I realised that One Hot Encoding was used, whereas we encoded our categorical data with Label Encoding. <br> <br> This <a href="https://mrtjwhipple.medium.com/mushroom-labelling-db941388f0d0">Mushroom Labelling</a> article on Medium and <a href="https://inmachineswetrust.com/posts/mushroom-classification/">Training a machine to determine whether a mushroom is edible</a> article on "In Machines We Trust" website shed light on as to what was the reason. <br> <br> <br></p>
+<h4 id="when-should-label-encoding-be-used-then">When should label encoding be used, then?</h4>
+<p>When the distinct values of each categorical feature are ordinal.</p>
+<h4 id="what-does-the-term-ordinal-mean">What does the term ordinal mean?</h4>
+<p>It's when the data values can have some hierarchy or order.</p>
+<h4 id="what-kind-of-label-encoding-example-may-there-be">What kind of label encoding example may there be?</h4>
+<p>For instance, since T-shirt sizes might range from small to extra large, it seems reasonable to list them as 1, 2, 3, and 4. <br> <br> <br></p>
+<h4 id="all-of-this-makes-sense-so-why-didnt-it-apply-to-our-situation">All of this makes sense, so why didn't it apply to our situation?</h4>
+<p>All our categorical variables were nominal.</p>
+<h4 id="what-does-the-term-nominal-mean">What does the term nominal mean?</h4>
+<p>It's when the data has no inherent order.</p>
+<h4 id="why-did-our-data-lack-any-kind-of-inherent-order">Why did our data lack any kind of inherent order?</h4>
+<p>Examples of possible colours for the cap-color feature were brown, buff, cinnamon, grey, punk, purple, red, white, and yellow. However, yellow doesn't have a value four times that of brown. Therefore, it makes no sense to label yellow as 8 and brown as 4.</p>
+<h4 id="how-do-we-know-that-yellow-was-8-and-brown-was-4">How do we know that yellow was 8 and brown was 4?</h4>
+<p>The Label Ecoder method converts the attributes to integers depending on their alphabetical order. <br> <br> Since we had "cap-color":</p>
+<ul>
+<li><strong>"brown"</strong> (= n)</li>
+<li><strong>"buff"</strong> (= b)</li>
+<li><strong>"cinnamon"</strong> (= c)</li>
+<li><strong>"gray"</strong> (= g)</li>
+<li><strong>"green"</strong> (= r)</li>
+<li><strong>"pink"</strong> (= p)</li>
+<li><strong>"purple"</strong> (= u)</li>
+<li><strong>"red"</strong> (= e)</li>
+<li><strong>"white"</strong> (= w)</li>
+<li><strong>"yellow"</strong> (= y) <br></li>
+</ul>
+</div>
+<div class="cell markdown">
+<p>As a result, it can be said that yellow was the final attribute, while brown was the first. <br> <br> <br> <br></p>
+</div>
+<div class="cell markdown">
+<p>It can finally be said that using One Hot Encoding for the nominal categorical data in the <a href="https://val0.medium.com/100-accurate-mushroom-classification-in-python-eac61da3bace">100% Accurate Mushroom Classification in Python</a> article makes sense now. <br> <br> <br></p>
+</div>
+<div class="cell markdown">
+<h4 id="based-on-the-above-discovery-has-everything-we-have-learned-up-to-this-point-been-for-nothing">Based on the above discovery, has everything we have learned up to this point been for nothing?</h4>
+<ol>
+<li>Every piece of knowledge we pick up is never wasted.</li>
+<li>Not really as using One hot encoding allows more possible combinations, which greatly complicates our task.</li>
+</ol>
+<h4 id="how-does-one-hot-encoding-complicates-our-task">How does One Hot Encoding complicates our task?</h4>
+<p>As it adds a new column for each attribute of each feature, the number of columns will rapidly rise. That's where the curse of dimensionality comes. You can read more about it here, <a href="https://towardsdatascience.com/the-curse-of-dimensionality-50dc6e49aa1e">The Curse of Dimensionality</a>.</p>
+<h4 id="how-do-we-know-that-our-dataset-would-not-have-the-best-result">How do we know that our dataset would not have the best result?</h4>
+<p>Let's quickly demonstrate what the author of the <a href="https://val0.medium.com/100-accurate-mushroom-classification-in-python-eac61da3bace">100% Accurate Mushroom Classification in Python</a> article did by using One hot encoding while avoiding simply one step.</p>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb50"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load file and get it as a dataframe</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>df1 <span class="op">=</span> get_df_from_file()</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a><span class="co">### THIS IS THE STEP WE ARE AVOIDING </span><span class="al">###</span></span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace missing values</span></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a><span class="co">#df1[&#39;stalk-root&#39;].fillna(df1[&#39;stalk-root&#39;].mode()[0], inplace=True)</span></span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a><span class="co">########################################</span></span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>dummies_columns1 <span class="op">=</span> [<span class="bu">list</span>(df1.columns)[i] <span class="cf">for</span> i <span class="kw">in</span> np.arange(<span class="dv">1</span>,<span class="dv">23</span>)]</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>df1 <span class="op">=</span> pd.get_dummies(df1, columns<span class="op">=</span>dummies_columns1)</span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-12"><a href="#cb50-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Map target variable class: 1 = poisonous, 0 = edible</span></span>
+<span id="cb50-13"><a href="#cb50-13" aria-hidden="true" tabindex="-1"></a>df1[<span class="st">&#39;class&#39;</span>] <span class="op">=</span> df1[<span class="st">&#39;class&#39;</span>].<span class="bu">map</span>({<span class="st">&quot;p&quot;</span>: <span class="dv">1</span>, <span class="st">&quot;e&quot;</span>: <span class="dv">0</span>})</span>
+<span id="cb50-14"><a href="#cb50-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-15"><a href="#cb50-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Split data</span></span>
+<span id="cb50-16"><a href="#cb50-16" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> df1.iloc[:, <span class="dv">1</span>:]</span>
+<span id="cb50-17"><a href="#cb50-17" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> df1.iloc[:, <span class="dv">0</span>]</span>
+<span id="cb50-18"><a href="#cb50-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-19"><a href="#cb50-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Training set and test set</span></span>
+<span id="cb50-20"><a href="#cb50-20" aria-hidden="true" tabindex="-1"></a>train_features, test_features, train_target, test_target <span class="op">=</span> train_test_split(features, target, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb50-21"><a href="#cb50-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-22"><a href="#cb50-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature scaling</span></span>
+<span id="cb50-23"><a href="#cb50-23" aria-hidden="true" tabindex="-1"></a>train_features, test_features <span class="op">=</span> standardise_data(train_features, test_features)</span>
+<span id="cb50-24"><a href="#cb50-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-25"><a href="#cb50-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Choose Logistic Regression as our model and fit it</span></span>
+<span id="cb50-26"><a href="#cb50-26" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> LogisticRegression()</span>
+<span id="cb50-27"><a href="#cb50-27" aria-hidden="true" tabindex="-1"></a>model.fit(train_features, train_target)</span>
+<span id="cb50-28"><a href="#cb50-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-29"><a href="#cb50-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the prediction of the target of the test set</span></span>
+<span id="cb50-30"><a href="#cb50-30" aria-hidden="true" tabindex="-1"></a>test_target_prediction <span class="op">=</span> model.predict(test_features)</span>
+<span id="cb50-31"><a href="#cb50-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-32"><a href="#cb50-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Print accuracy score</span></span>
+<span id="cb50-33"><a href="#cb50-33" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy score:&quot;</span>, accuracy_score(test_target, test_target_prediction, normalize<span class="op">=</span><span class="va">True</span>) <span class="op">*</span> <span class="dv">100</span>)</span>
+<span id="cb50-34"><a href="#cb50-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-35"><a href="#cb50-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualise confusion matrix</span></span>
+<span id="cb50-36"><a href="#cb50-36" aria-hidden="true" tabindex="-1"></a>visualise_conf_matrix(test_target, test_target_prediction)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy score: 100.0
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_a191fdebae96429f8265b9666d2b87d4/a7a7fc9faf77966f33004d0fa23df96b07911482.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>As can be seen, we have omitted the step of replacing the missing data. As a consequence, although having noise (2480 missing values), the model shows that is 100% accurate. This is the finest illustration of overfitting. <br> <br></p>
+</div>
+<section id="conclusion" class="cell markdown">
+<h2>Conclusion</h2>
+</section>
+<div class="cell markdown">
+<p>Each method has its advantages and disadvantages. <br> <br> Label Encoding and the One Hot Encoding both yielded models that over-fit the data and had extremely high validation scores [8]. <br> <br> I'll do more thorough investigation and update you on my findings soon. <br> <br></p>
+</div>
+<section id="sources" class="cell markdown">
+<h2>Sources:</h2>
+<ol>
+<li><a href="https://kambria.io/blog/logistic-regression-for-machine-learning/">Why Logistic Regression?</a></li>
+<li><a href="https://www.kaggle.com/datasets/uciml/mushroom-classification">Mushroom Classification dataset</a></li>
+<li><a href="https://www.datacamp.com/blog/what-is-kaggle">What is Kaggle?</a></li>
+<li><a href="https://medium.com/@karyaozmen/how-to-split-train-and-test-data-c1381d240fc4">80%-20% splitting strategy</a></li>
+<li><a href="https://riskspan.com/tuning-machine-learning-models/">What is Parameter Tuning?</a></li>
+<li><a href="https://machinelearningmastery.com/how-to-configure-k-fold-cross-validation/#:~:text=The%20key%20configuration%20parameter%20for,evaluate%20models%20is%20k%3D10.">The reason why K equals to 10 is the most popular value used</a></li>
+<li><a href="https://towardsdatascience.com/tuning-the-hyperparameters-of-your-machine-learning-model-using-gridsearchcv-7fc2bb76ff27">The dictionary of hyperparameters used for tuning the hyperparameters using GridSearchCV</a></li>
+<li><a href="https://mrtjwhipple.medium.com/mushroom-labelling-db941388f0d0">Mushroom Labelling</a></li>
+</ol>
+</section>
+</body>
+</html>
