@@ -1,6 +1,10 @@
 # Description
-- Make a Jupyter Notebook to look like a professional tutorial. 
-- Illustrate the use of one, two or three functions for two popular AI/ML packages such as Scipy, Scikit-learn, NLTK, Matplotlib, etc.
+- Discover where to obtain and gather open-sourced datasets so that we may begin building a machine learning model
+- Gain knowledge of how crucial data preparation is to the machine learning process
+- Find out how to feed the preprocessed data into a machine learning algorithm and assess the model using metrics like accuracy score and confusion matrix
+- Learn how to measure a model's stability with respect to constantly changing training and test data by using an alternative splitting approach to the conventional one, the holdout method
+- Tune a model's parameters using a method that finds the optimal parameter values from the supplied grid of parameters in order to improve a model's performance
+- Understand the difference between label encoding and one hot encoding
 
 
 # Environment
@@ -22,4 +26,6 @@ source ./.env/bin/activate
 
 
 ## Author
-Petros Andreou
+<a href="https://www.linkedin.com/in/petrosandreou80/">
+  <img align="center" src="https://img.shields.io/badge/Petros LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
